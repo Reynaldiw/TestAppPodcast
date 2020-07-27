@@ -10,9 +10,13 @@
 		5345EAA624CEAE4E00C6FFA7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5345EAA524CEAE4E00C6FFA7 /* AppDelegate.swift */; };
 		5345EAA824CEAE4E00C6FFA7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5345EAA724CEAE4E00C6FFA7 /* SceneDelegate.swift */; };
 		5345EAAA24CEAE4E00C6FFA7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5345EAA924CEAE4E00C6FFA7 /* ViewController.swift */; };
-		5345EAAD24CEAE4E00C6FFA7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5345EAAB24CEAE4E00C6FFA7 /* Main.storyboard */; };
 		5345EAAF24CEAE4F00C6FFA7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5345EAAE24CEAE4F00C6FFA7 /* Assets.xcassets */; };
 		5345EAB224CEAE4F00C6FFA7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5345EAB024CEAE4F00C6FFA7 /* LaunchScreen.storyboard */; };
+		5345EABC24CEAED900C6FFA7 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5345EABB24CEAED900C6FFA7 /* MainView.swift */; };
+		5345EABE24CEAF1600C6FFA7 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5345EABD24CEAF1600C6FFA7 /* Extensions.swift */; };
+		5345EAC024CEAF4700C6FFA7 /* TrimAudioVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5345EABF24CEAF4700C6FFA7 /* TrimAudioVC.swift */; };
+		5345EAC224CEAF7700C6FFA7 /* TrimAudioView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5345EAC124CEAF7700C6FFA7 /* TrimAudioView.swift */; };
+		5345EAC524CEB00200C6FFA7 /* stuck-on-u.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5345EAC424CEB00200C6FFA7 /* stuck-on-u.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,10 +24,14 @@
 		5345EAA524CEAE4E00C6FFA7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5345EAA724CEAE4E00C6FFA7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		5345EAA924CEAE4E00C6FFA7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		5345EAAC24CEAE4E00C6FFA7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5345EAAE24CEAE4F00C6FFA7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5345EAB124CEAE4F00C6FFA7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5345EAB324CEAE4F00C6FFA7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5345EABB24CEAED900C6FFA7 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		5345EABD24CEAF1600C6FFA7 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		5345EABF24CEAF4700C6FFA7 /* TrimAudioVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrimAudioVC.swift; sourceTree = "<group>"; };
+		5345EAC124CEAF7700C6FFA7 /* TrimAudioView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrimAudioView.swift; sourceTree = "<group>"; };
+		5345EAC424CEB00200C6FFA7 /* stuck-on-u.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "stuck-on-u.mp3"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,13 +66,41 @@
 			children = (
 				5345EAA524CEAE4E00C6FFA7 /* AppDelegate.swift */,
 				5345EAA724CEAE4E00C6FFA7 /* SceneDelegate.swift */,
-				5345EAA924CEAE4E00C6FFA7 /* ViewController.swift */,
-				5345EAAB24CEAE4E00C6FFA7 /* Main.storyboard */,
+				5345EABD24CEAF1600C6FFA7 /* Extensions.swift */,
+				5345EAB924CEAEB300C6FFA7 /* Controller */,
+				5345EABA24CEAEC800C6FFA7 /* Views */,
+				5345EAC324CEAFED00C6FFA7 /* ExampleAudioAsset */,
 				5345EAAE24CEAE4F00C6FFA7 /* Assets.xcassets */,
 				5345EAB024CEAE4F00C6FFA7 /* LaunchScreen.storyboard */,
 				5345EAB324CEAE4F00C6FFA7 /* Info.plist */,
 			);
 			path = TestAppPodcast;
+			sourceTree = "<group>";
+		};
+		5345EAB924CEAEB300C6FFA7 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				5345EAA924CEAE4E00C6FFA7 /* ViewController.swift */,
+				5345EABF24CEAF4700C6FFA7 /* TrimAudioVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		5345EABA24CEAEC800C6FFA7 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				5345EABB24CEAED900C6FFA7 /* MainView.swift */,
+				5345EAC124CEAF7700C6FFA7 /* TrimAudioView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		5345EAC324CEAFED00C6FFA7 /* ExampleAudioAsset */ = {
+			isa = PBXGroup;
+			children = (
+				5345EAC424CEB00200C6FFA7 /* stuck-on-u.mp3 */,
+			);
+			path = ExampleAudioAsset;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,9 +161,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5345EAC524CEB00200C6FFA7 /* stuck-on-u.mp3 in Resources */,
 				5345EAB224CEAE4F00C6FFA7 /* LaunchScreen.storyboard in Resources */,
 				5345EAAF24CEAE4F00C6FFA7 /* Assets.xcassets in Resources */,
-				5345EAAD24CEAE4E00C6FFA7 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,7 +174,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5345EABE24CEAF1600C6FFA7 /* Extensions.swift in Sources */,
 				5345EAAA24CEAE4E00C6FFA7 /* ViewController.swift in Sources */,
+				5345EAC224CEAF7700C6FFA7 /* TrimAudioView.swift in Sources */,
+				5345EABC24CEAED900C6FFA7 /* MainView.swift in Sources */,
+				5345EAC024CEAF4700C6FFA7 /* TrimAudioVC.swift in Sources */,
 				5345EAA624CEAE4E00C6FFA7 /* AppDelegate.swift in Sources */,
 				5345EAA824CEAE4E00C6FFA7 /* SceneDelegate.swift in Sources */,
 			);
@@ -147,14 +187,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		5345EAAB24CEAE4E00C6FFA7 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				5345EAAC24CEAE4E00C6FFA7 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		5345EAB024CEAE4F00C6FFA7 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
